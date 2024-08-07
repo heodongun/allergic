@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allergic App</title>
+    <link rel="stylesheet"  href="css/login.css">
+</head>
+<body>
+<form class="container" id="login-form">
+    <div class="title">로그인</div>
+    <input type="text" class="input-box" style="top: 250px;" placeholder="아이디를 입력해주세요.." name="id" id="id">
+    <input type="password" class="input-box" style="top: 320px;" placeholder="비밀번호를 입력해주세요.." name="password" id="password">
+    <input type="submit" class="button" value="로그인">
+    <div class="signup-container">
+        <div class="first-time-text">처음이신가요?</div>
+        <div class="signup-text" onclick="location.href='signup.html'">회원가입</div>
+    </div>
+    <div class="back-text">뒤로가기</div>
+</form>
+<script src="js/login.js"></script>
+<script src="cordova.js"></script>
+<script src="cordova_plugins.js"></script>
+</body>
+</html>

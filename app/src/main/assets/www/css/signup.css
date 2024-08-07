@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    font-family: 'SF Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 393px;
+    height: 852px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    position: relative;
+    width: 393px;
+    height: 852px;
+}
+
+.back-btn {
+    position: absolute;
+    left: 172px;
+    top: 656px;
+    opacity: 0.80;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 13px;
+    font-weight: 590;
+    text-decoration: underline;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.input-box {
+    align-items: center;
+    padding-left: 10px;
+    position: absolute;
+    height: 45px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+#id-input {
+    width: 233px;
+    left: 34px;
+    top: 201px;
+}
+
+#password-input, #password-confirm-input {
+    width: 324px;
+    left: 34px;
+}
+
+#password-input {
+    top: 280px;
+}
+
+#password-confirm-input {
+    top: 358px;
+}
+
+.placeholder {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    text-align: center;
+    color: rgba(138, 138, 138, 0.80);
+    font-size: 13px;
+    font-weight: 590;
+    line-height: 22px;
+}
+
+.label {
+    position: absolute;
+    left: 34px;
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    font-weight: 590;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+#id-label {
+    top: 175px;
+}
+
+#password-label {
+    top: 256px;
+}
+
+#password-confirm-label {
+    top: 335px;
+}
+
+.confirm-btn {
+    position: absolute;
+    width: 81px;
+    height: 45px;
+    left: 277px;
+    top: 201px;
+    background: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.confirm-btn div {
+    position: absolute;
+    left: 28px;
+    top: 12px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 590;
+    line-height: 22px;
+}
+
+.title {
+    position: absolute;
+    left: 133px;
+    top: 127px;
+    text-align: center;
+    color: black;
+    font-size: 34px;
+    font-weight: 590;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.existing-member {
+    position: absolute;
+    width: 186px;
+    height: 22px;
+    left: 103px;
+    top: 418px;
+}
+
+.existing-text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    color: #868686;
+    font-size: 14px;
+    font-weight: 590;
+    line-height: 22px;
+}
+
+.login-text {
+    position: absolute;
+    left: 121px;
+    top: 0;
+    text-align: center;
+    color: #0085FF;
+    font-size: 14px;
+    font-weight: 590;
+    line-height: 22px;
+}
+
+.submit-btn {
+    position: absolute;
+    width: 324px;
+    height: 45px;
+    left: 34px;
+    top: 460px;
+    background: black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.submit-btn div {
+    position: absolute;
+    left: 128px;
+    top: 12px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 590;
+    line-height: 22px;
+}

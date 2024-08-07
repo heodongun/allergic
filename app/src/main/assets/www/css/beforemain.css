@@ -1,0 +1,135 @@
+body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 85%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            width: 393px;
+            height: 852px;
+            background: white;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;
+
+        }
+
+        .login-button, .signup-button {
+            width: 286px;
+            padding: 18px 0;
+            position: absolute;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'SF Pro';
+            font-size: 20px;
+            font-weight: 590;
+            line-height: 22px;
+            word-wrap: break-word;
+            text-align: center;
+        }
+
+        .login-button {
+            top: 76%;
+            background: #0D7FFB;
+            color: white;
+        }
+
+        .signup-button {
+            top: 89%;
+            background: white;
+            color: #0D7FFB;
+            border: 1px solid #0075FF;
+        }
+
+        .already-member {
+            position: absolute;
+            top: 72%;
+            text-align: center;
+            color: black;
+            font-size: 14px;
+            font-family: 'SF Pro';
+            font-weight: 590;
+            line-height: 22px;
+            word-wrap: break-word;
+        }
+
+        .divider {
+            width: 40%;
+            position: absolute;
+            border: 1px solid #868686;
+        }
+
+        .divider-left {
+            top: 86%;
+            left: 5%;
+        }
+
+        .divider-right {
+            top: 86%;
+            left: 55%;
+        }
+
+        .or {
+            position: absolute;
+            top: 84.8%;
+            left: 47.4%;
+            text-align: center;
+            color: #868686;
+            font-size: 13px;
+            font-family: 'SF Pro';
+            font-weight: 590;
+            line-height: 22px;
+            word-wrap: break-word;
+        }
+
+        .logo-container {
+            height: 160.06px;
+            position: absolute;
+            top: 35%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2px;
+        }
+
+        .logo {
+            width: 35%;
+            height: 100.06px;
+            margin-right:75px;
+            position: relative;
+        }
+
+
+
+        .logo-text {
+            text-align: center;
+            color: #51CE54;
+            font-size: 48px;
+            font-family: 'Inter';
+            font-weight: 500;
+            word-wrap: break-word;
+        }
+
+        .slogan {
+            position: absolute;
+            top: 55%;
+            left: 22%;
+            text-align: center;
+            color: black;
+            font-size: 18px;
+            font-family: 'Inter';
+            font-weight: 600;
+            line-height: 22px;
+        }
+
